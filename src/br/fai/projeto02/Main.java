@@ -24,6 +24,12 @@ public class Main {
 		//int valorComCast = (int)valor;
 		System.out.println("o valor digitado foi: " + valor + " | valor inteiro" + valorComCast);
 		
+		int novoValor = 10;
+		
+		double valorConvertido = novoValor;
+		
+		System.out.println("Novo " + novoValor + " | valor convertido: " + valorConvertido);
+		
 	}
 
 }
