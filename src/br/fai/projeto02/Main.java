@@ -1,9 +1,10 @@
 package br.fai.projeto02;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Main app = new Main();
 		
@@ -12,7 +13,16 @@ public class Main {
 	}
 
 	private void start() {
-		// TODO Auto-generated method stub
+		
+		System.out.println("Digite um valor: ");
+		
+		Scanner scanner = new Scanner(System.in);
+		double valor = scanner.nextDouble();
+		
+		int valorComCast = (int)valor;
+		
+		//int valorComCast = (int)valor;
+		System.out.println("o valor digitado foi: " + valor + " | valor inteiro" + valorComCast);
 		
 	}
 
